@@ -1,0 +1,18 @@
+name: mlclass
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - pytorch-gpu>=1.11
+  - cudatoolkit>=11.6
+  - tqdm>=4.59.0
+  - torchvision>=0.2.1
+  - numpy>=1.20.1
+  - matplotlib>=3.4.3
+  - xarray>=0.20.2
+  - netcdf4>=1.5.8
+  - zarr
+  - pip
+  - pip:
+    - swiftspec
